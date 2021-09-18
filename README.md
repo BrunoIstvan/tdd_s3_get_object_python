@@ -9,10 +9,6 @@ Ativar virtualenv
 
     source venv/bin/activate
 
-Desativar virtualenv
-
-    deactivate
-
 Instalar dependências:
 
     pip install -r requirements.txt
@@ -24,6 +20,10 @@ Rodar os testes unitários:
 Criar arquivo zip para subir no lambda:
 
     zip s3_get_object_python.zip lambda_function.py app/ 
+
+Desativar virtualenv
+
+    deactivate
 
 Atualizar código do lambda:
 

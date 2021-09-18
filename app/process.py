@@ -1,8 +1,7 @@
 import base64
 import json
 
-from app.exceptions.custom_exceptions import InvalidQueryParametersException, InvalidS3ParametersException, \
-    FileNotFoundException
+from app.exceptions.custom_exceptions import InvalidQueryParametersException, InvalidS3ParametersException
 from app.s3_service import S3Service
 
 
